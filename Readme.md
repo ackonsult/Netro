@@ -58,7 +58,7 @@ Listen on port 5000 for normal connections. Listen on port 5001 for reverse tunn
         └─────┘
 
 
-`Netro.exe example.com:5001 localhost:80`  
+`Netro.exe localhost:80 example.com:5001`  
 Open reverse tunneling cunnection against example.com on port 5001.
 On reverse connections, open connection against localhost on port 80.
 
